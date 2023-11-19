@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: gray;
+    background: rgb(76, 186, 211);
     color: white;
 
 }
@@ -22,7 +22,7 @@ header{
 
 header h1{
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color: black;
     margin-bottom: 1rem;
 
@@ -39,7 +39,7 @@ input, button {
 }
 #new-task-input {
     flex: 1 1 0%;
-    background-color: rgb(210, 171, 171);
+    background-color: rgb(40, 35, 32);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
@@ -49,7 +49,7 @@ input, button {
 
 
 #new-task-submit{
-    color: pink;
+    color: rgb(54, 12, 191);
     font-size: 1.25rem;
     font-weight: 700;
     cursor: pointer;
@@ -70,7 +70,7 @@ main{
 }
 .task-list h2{
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color: black;
     margin-bottom: 1rem;
 }
